@@ -12,13 +12,15 @@ cargo run
 
 ## Endpoints
 🛰  Mounting /api/v1/:
-    => POST /api/v1/username application/json (get_all)
-    => POST /api/v1/newMessage application/json (new_message)
-    => POST /api/v1/getUser application/json (find_username)
+
+- => POST /api/v1/username application/json (get_all)
+- => POST /api/v1/newMessage application/json (new_message)
+- => POST /api/v1/getUser application/json (find_username)
 
 ## TODO
-Add tests 
-Add CI/CD
-Implement the delete fn and path.
-Add test data.
-Reply to another API interacction.
+
+- Add tests 
+- Add CI/CD
+- Implement the delete fn and path.
+- Add test data.
+- Reply to another API interacction.
